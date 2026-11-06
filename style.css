@@ -1,0 +1,267 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080b18;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: #0c1020;
+    border-bottom: 1px solid #00f7ff;
+}
+
+.logo {
+    font-size: 28px;
+    color: white;
+}
+
+.logo span,
+.hero h1 span {
+    color: #00f7ff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00f7ff;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: radial-gradient(circle, #142044, #080b18 70%);
+}
+
+.welcome {
+    color: #00f7ff;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    color: #b38cff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    line-height: 1.8;
+    max-width: 600px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 14px 30px;
+    border: 1px solid #00f7ff;
+    color: #00f7ff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00f7ff;
+    color: #080b18;
+    box-shadow: 0 0 25px #00f7ff;
+}
+
+section:not(.hero) {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+section:not(.hero) h2 {
+    color: #00f7ff;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+section:not(.hero) p {
+    line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+}
+body {
+    background-color: black !important;
+    color: cyan !important;
+}
+.about {
+    background: #0c1020;
+}
+
+.about h2 span {
+    color: #00f7ff;
+}
+
+.about-card {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 35px;
+    background: #111a30;
+    border: 1px solid #00f7ff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 247, 255, 0.15);
+}
+
+.about-card h3 {
+    color: #b38cff;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.about-card p {
+    color: #d1d5e0;
+    line-height: 2;
+}
+
+.projects {
+    background: #080b18;
+}
+
+.projects h2 span {
+    color: #00f7ff;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.project-card {
+    background: #111a30;
+    border: 1px solid #00f7ff;
+    padding: 30px;
+    width: 280px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+.project-card h3 {
+    color: #b38cff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #d1d5e0;
+    margin-bottom: 20px;
+}
+
+.project-card span {
+    color: #00f7ff;
+    font-size: 13px;
+}
+
+.contact {
+    background: #0c1020;
+}
+
+.contact h2 span {
+    color: #00f7ff;
+}
+
+.contact-card {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 40px 25px;
+    background: #111a30;
+    border: 1px solid #00f7ff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 247, 255, 0.15);
+}
+
+.contact-card h3 {
+    color: #b38cff;
+    margin-bottom: 20px;
+}
+
+.contact-card p {
+    color: #d1d5e0;
+    margin-bottom: 25px;
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-links a {
+    color: #00f7ff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-shadow: 0 0 10px #00f7ff;
+}
+
+footer {
+    background: #050711;
+    text-align: center;
+    padding: 30px 15px;
+    border-top: 1px solid #00f7ff;
+}
+
+footer h3 {
+    color: #00f7ff;
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+
+footer p {
+    color: #aab2c5;
+    margin: 10px 0;
+}
